@@ -21,21 +21,6 @@ I build systems that work close to the metal: procedural world generation, scree
 
 ---
 
-## Product analysis & startup research
-
-I have spent years studying how products and startups are built — not just from a technical side, but from a business and product perspective.
-
-**What I focus on:**
-- How startups go from idea to MVP to first sales
-- Product analysis of successful companies (e.g., Playrix, Nexters, Eset, Malwarebytes, Lavasoft (adaware), McAfee, Acronis, Spin Master, ZURU, MGA Entertainment)
-- Monetization models, viral mechanics and user acquisition
-- Why some products scale and others don't
-- How to design products that are both technically solid and market-ready
-
-This gives me a broader view than pure backend development: I understand not only how to build a system, but why it exists, who needs it, and how it can grow.
-
----
-
 ## Featured projects
 
 ### Two-Headed Shark LTD
