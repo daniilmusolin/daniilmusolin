@@ -1,16 +1,104 @@
-## Hi there 👋
+# Daniil Musolin
 
-<!--
-**daniilmusolin/daniilmusolin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+C# / .NET Developer focused on R&D, backend systems, game engines and low-level Windows APIs.
 
-Here are some ideas to get you started:
+I build systems that work close to the metal: procedural world generation, screen capture, global hotkeys, real-time input, and scalable backend services. My main interests are engine architecture, graphics programming, WinAPI interop, service architecture and production-oriented backend engineering.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## Core stack
+
+**Languages:** C#, JavaScript (basic), HTML, CSS  
+**Backend:** .NET Core, ASP.NET Core, ASP.NET Core Identity, ASP.NET Core MVC, Entity Framework Core, Dapper, ADO.NET, LINQ, PLINQ  
+**Data:** MySQL, SQLite, Redis  
+**Networking:** TCP, UDP, HTTP, SignalR, WebSockets  
+**Background jobs:** Hangfire  
+**Desktop:** WPF, WinAPI, P/Invoke, GDI+  
+**Architecture:** DI, OOP, SOLID, YAGNI, DRY, KISS, GoF, REST API, MVC, MVP, MVVM  
+**Infrastructure:** Docker, Docker Compose, Nginx (basic), Git, Trello  
+**Game / Graphics:** OpenTK, GDI+, Simplex Noise, procedural generation  
+**Tools:** NuGet, Swagger, OpenAPI, Visual Studio  
+
+---
+
+## Featured projects
+
+### Two-Headed Shark LTD
+Backend developer on a meta-server for an online game.
+
+**Highlights:**
+- Designed and maintained meta-server based on C#, ASP.NET Core, Entity Framework Core, MySQL, Redis, SignalR, Docker
+- Independently designed database and API for the meta-server
+- Worked on client and server parts, including client-server and real-time synchronization
+- Used SignalR for real-time notifications, Hangfire for background jobs, Nginx as reverse proxy
+
+### Casual Online Game (Startup)
+Backend developer on a casual online game, including client and server parts.
+
+**Highlights:**
+- Worked on architecture of client and server parts
+- Real-time synchronization via SignalR
+- Used C#, ASP.NET Core, Entity Framework Core, MySQL, Redis, SignalR, Hangfire, Docker, Nginx
+- Prototyped and developed game concepts in Figma
+- Market analysis via AppMagic, Sensor Tower, data.ai
+- Designed virality and social mechanics (e.g., reaching social effect)
+
+### [Twitter Clone (MVP)](https://github.com/daniilmusolin/TwitterClone/)
+A learning Twitter clone written in C# / ASP.NET Core.
+
+**Highlights:**
+- User registration and login
+- Posting tweets and feed
+- Real-time updates via SignalR
+- REST API with DTOs
+- Custom middleware
+- In-memory storage (deliberate MVP simplification)
+- Frontend: HTML, CSS, JavaScript
+
+### [Shotbani](https://github.com/daniilmusolin/Shotbani)
+Screen capture tool with global hotkeys, webcam overlay and click effects.
+
+**Highlights:**
+- Global hotkeys via WinAPI (RegisterHotKey)
+- Screen capture via GDI+ (CopyFromScreen, cursor, click effects)
+- Webcam integration
+- Clean architecture (Domain / Infrastructure)
+- Custom hotkey parser (CTRL / ALT / SHIFT / WIN + key)
+- WPF-based UI
+
+### [MinecraftEngine](https://github.com/daniilmusolin/MinecraftEngine)
+Voxel game engine with procedural terrain, biomes, caves and trees.
+
+**Highlights:**
+- Chunk-based world generation with Simplex Noise
+- Biome system: ocean, plains, hills, mountains
+- Cave generation and tree placement
+- Player physics: gravity, collisions, flight, sprint, sneak
+- Real-time rendering via OpenTK
+- Clean architecture (Engine.Core / Engine.World / Engine.Terrain)
+
+---
+
+## Engineering interests
+
+I am currently deepening my knowledge of:
+
+- transaction boundaries and concurrency
+- distributed systems and asynchronous messaging
+- caching strategies
+- observability and application diagnostics
+- integration and infrastructure testing
+- designing maintainable service APIs
+- engine architecture and ECS
+- graphics programming and rendering pipelines
+- WinAPI interop and low-level Windows internals
+- performance profiling and memory management
+- procedural generation and noise algorithms
+
+---
+
+## Contact
+
+GitHub: [@daniilmusolin](https://github.com/daniilmusolin)
+Email: [musolindanil@gmail.com](mailto:musolindanil@gmail.com)
+Telegram: [@daniilmusolin](https://t.me/daniilmusolin)
