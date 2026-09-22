@@ -38,10 +38,33 @@ Backend developer on a casual online game, including client and server parts.
 **Highlights:**
 - Worked on architecture of client and server parts
 - Real-time synchronization via SignalR
-- Used C#, ASP.NET Core, Entity Framework Core, MySQL, Redis, SignalR, Hangfire, Docker, Nginx
+- Used C#, Unity, ASP.NET Core, Entity Framework Core, MySQL, Redis, SignalR, Hangfire, Docker, Nginx
 - Prototyped and developed game concepts in Figma
 - Market analysis via AppMagic, Sensor Tower, data.ai
 - Designed virality and social mechanics (e.g., reaching social effect)
+
+**Meta-server functionality:**
+- User profile service (basic profile functions, e.g., avatar upload to S3)
+- Friend system
+- Gift system
+- Item exchange system between players
+- News service
+- Tournament service (every 30 days rewards top players and restarts)
+- Leaderboard service
+- Sale service (items and discounts updated every 7 days)
+- Shop service
+- Donation system integration
+- VIP status service
+- Global chat
+- Personal messaging system
+- Promo code system
+- Referral system
+- Real-time UI updates via SignalR
+- Other auxiliary services
+
+**Real-time server functionality:**
+- Global chat
+- Game room management (create, join, leave, filter)
 
 ### [Twitter Clone (MVP)](https://github.com/daniilmusolin/TwitterClone/)
 A learning Twitter clone written in C# / ASP.NET Core.
